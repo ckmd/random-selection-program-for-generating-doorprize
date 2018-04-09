@@ -15,7 +15,7 @@ import java.util.Random;
 public class Lotre{
     ArrayList<String> data = new ArrayList<String>();    
     public Lotre(){
-        int maks = 200, i = 100;
+        int maks = 110, i = 100;
         while(i < maks){
             data.add(""+i);
             i++;
